@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    background-color: #1e766c;
+}
+
+.l1 {
+    background-color: #a5c657;
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    transform: rotate(30deg);
+    position: absolute;
+    top: 7%;
+    left: 30%;
+}
+
+.l2 {
+    background-color: #ddb892;
+    width: 180px;
+    height: 60px;
+    border-radius: 30px;
+    transform: rotate(21deg);
+    position: absolute;
+    top: 85%;
+    left: 12%;
+}
+
+.l3 {
+    background-color: #b8bedd;
+    width: 180px;
+    height: 180px;
+    border-radius: 30px;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 62%;
+    left: 77%;
+
+}
+
+.content {
+    position: absolute;
+    top: 50px;
+    left: 10%;
+    height: 82%;
+    width: 80%;
+    background-color: white;
+    z-index: 99;
+    border-radius: 5px;
+    border: solid 2px white;
+}
+
+.nav {
+    height: 40px;
+    width: 96%;
+    border-radius: 5px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.foot {
+    background-color: #1e766c;
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+    top: 93%;
+}
+
+.left {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.mid {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+span {
+    font-size: 10px;
+    color: #1e766c;
+}
+
+.createCvButton {
+    border: none;
+    background-color: #1e766c;
+    color: white;
+    border-radius: 30px;
+    transition: opacity 0.9ms;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.createCvButton:hover {
+    opacity: 0.7;
+}
+
+.createCvButton:active {
+    opacity: 0.3;
+}
+
+.website {
+    height: 80%;
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    display: flex;
+}
+
+.cont1 {
+    width: 35%;
+    height: 100%;
+}
+
+.text {
+    position: relative;
+    top: 110px;
+    font-weight: bold;
+    font-size: 25px;
+    left: 70px;
+    color: black;
+}
+
+.your {
+    font-weight: bold;
+    font-size: 25px;
+    font-style: italic;
+    color: #a5c657;
+}
+
+.createCvButton2 {
+    border: none;
+    background-color: #1e766c;
+    color: white;
+    border-radius: 30px;
+    transition: opacity 0.9ms;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    top: 120px;
+    left: 65px;
+}
+
+.createCvButton2:hover {
+    opacity: 0.7;
+}
+
+.createCvButton2:active {
+    opacity: 0.3;
+}
+
+.cont1_last {
+    display: flex;
+
+}
+
+.cont1_last_span {
+    font-size: 7px;
+    color: black;
+    position: relative;
+    top: 137px;
+    left: 86px;
+}
+
+.stars {
+    position: relative;
+    top: 130px;
+    height: 20px;
+    left: 70px;
+}
+
+.bx {
+    color: white;
+}
+
+.bx-left-arrow-alt {
+    transform: rotate(40deg);
+    padding-top: 5px;
+}
+
+.arrow_top {
+    position: relative;
+    top: 7px;
+    left: 5px;
+}
+
+.cont2 {
+    height: 100%;
+    flex: 1;
+}
+
+
+
+.swiper {
+    width: 500px;
+    height: 362px;
+    padding-top: 50px;
+    padding-bottom: 55px;
+}
+
+
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+.im1,
+.im2,
+.im3 {
+    object-fit: cover;
+    width: 500px;
+    height: 300px;
+}
+
+
+h4 {
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    color: white;
+    font-size: 10px;
+}
+
+h5 {
+    position: absolute;
+    top: 85%;
+    left: 5%;
+    color: rgb(217, 211, 211);
+    font-size: 8px;
+}
+
+.data {
+    position: absolute;
+    top: 80%;
+    left: 60%;
+}
+
+.im {
+    border-radius: 10px;
+}
